@@ -1,6 +1,6 @@
 # Abstraindo um Bootcamp usando Orientação à Objetos em Java
 
-## 03/08/2022 - Desafio de Projeto do Bootcamp Cognizant Java Developer
+## 03/08/2022 - Desafio de Projeto para o Bootcamp Spring Framework Experience
 
 
 ⚠️ Não estou disponibilizando o link direto para o desafio, pois o mesmo faz parte da trilha de alguns Bootcamps. Logo, você terá que se matricular no Bootcamp para ter acesso ao curso.⚠️
