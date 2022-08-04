@@ -5,6 +5,8 @@ package br.com.regissanme.desafio.dominio;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 03/08/2022
  * Hora: 23:12
+ *
+ * Classe que representa um Conteúdo do tipo Curso, com suas especificidades.
  */
 public class Curso extends Conteudo {
 

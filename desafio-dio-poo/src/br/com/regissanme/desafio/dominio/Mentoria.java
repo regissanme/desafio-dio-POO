@@ -7,6 +7,8 @@ import java.time.LocalDate;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 03/08/2022
  * Hora: 23:12
+ *
+ * Classe que representa um Conteúdo do tipo Mentoria, com suas especificidades.
  */
 public class Mentoria extends Conteudo {
 

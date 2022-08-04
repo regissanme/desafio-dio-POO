@@ -10,6 +10,9 @@ import java.util.Set;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 04/08/2022
  * Hora: 10:42
+ *
+ * Classe que representa o(a) desenvolvedor(a) que está participando dos conteúdos
+ * do Bootcamp.
  */
 public class Dev {
 
@@ -56,7 +59,7 @@ public class Dev {
 
     public void inscreverBootcamp(Bootcamp bootcamp) {
         this.conteudosInscritos.addAll(bootcamp.getConteudos());
-        bootcamp.getDevsIncritos().add(this);
+        bootcamp.adicionarDev(this);
     }
 
     public void progredir() {

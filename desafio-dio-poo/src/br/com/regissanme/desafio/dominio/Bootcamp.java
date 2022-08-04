@@ -11,6 +11,9 @@ import java.util.Set;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 04/08/2022
  * Hora: 10:42
+ *
+ * Esta classe representa um bootcamp, da forma como é apresentado na DIO,
+ * mas com regras de negócio próprias para esse projeto.
  */
 public class Bootcamp {
 
@@ -18,8 +21,8 @@ public class Bootcamp {
     private String descricao;
     private final LocalDate dataInicial = LocalDate.now();
     private final LocalDate dataFinal = dataInicial.plusDays(45);
-    private Set<Dev> devsIncritos = new HashSet<>();
-    private Set<Conteudo> conteudos = new LinkedHashSet<>();
+    private final Set<Dev> devsIncritos = new HashSet<>();
+    private final Set<Conteudo> conteudos = new LinkedHashSet<>();
 
     public String getNome() {
         return nome;
@@ -53,13 +56,22 @@ public class Bootcamp {
         return conteudos;
     }
 
-    public void setDevsIncritos(Set<Dev> devsIncritos) {
-        this.devsIncritos = devsIncritos;
+    public void adicionarDev(Dev dev){
+        this.devsIncritos.add(dev);
     }
 
-    public void setConteudos(Set<Conteudo> conteudos) {
-        this.conteudos = conteudos;
+    public void removerDev(Dev dev){
+        this.devsIncritos.remove(dev);
     }
+
+    public void adicionarConteudo(Conteudo conteudo){
+        this.conteudos.add(conteudo);
+    }
+
+    public void removerConteudo(Conteudo conteudo){
+        this.conteudos.remove(conteudo);
+    }
+
 
     @Override
     public boolean equals(Object o) {

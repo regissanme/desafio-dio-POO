@@ -10,6 +10,8 @@ import java.time.LocalDate;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 03/08/2022
  * Hora: 23:12
+ *
+ * Classe Principal do projeto
  */
 public class Main {
     public static void main(String[] args) {
@@ -29,16 +31,12 @@ public class Main {
         mentoria1.setDescricao("Descrição da Mentoria Java");
         mentoria1.setData(LocalDate.now());
 
-//        System.out.println(curso1);
-//        System.out.println(curso2);
-//        System.out.println(mentoria1);
-
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Spring Framework Experience");
         bootcamp.setDescricao("Descrição do Bootcamp");
-        bootcamp.getConteudos().add(curso1);
-        bootcamp.getConteudos().add(curso2);
-        bootcamp.getConteudos().add(mentoria1);
+        bootcamp.adicionarConteudo(curso1);
+        bootcamp.adicionarConteudo(curso2);
+        bootcamp.adicionarConteudo(mentoria1);
 
         Dev dev1 = new Dev();
         dev1.setNome("Reginaldo");

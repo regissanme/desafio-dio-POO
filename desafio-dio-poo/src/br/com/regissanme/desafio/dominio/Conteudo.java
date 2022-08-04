@@ -5,6 +5,9 @@ package br.com.regissanme.desafio.dominio;
  * Desenvolvedor: Reginaldo Santos de Medeiros (regissanme)
  * Data: 03/08/2022
  * Hora: 23:31
+ *
+ * Classe (Mãe, Pai, Base) para representar os conteúdos oferecidos em um bootcamp.
+ * Os conteúdos podem ser, como exemplo, as Mentorias, os Cursos, etc.
  */
 public abstract class Conteudo {
 
