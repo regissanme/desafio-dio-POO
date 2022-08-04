@@ -54,14 +54,14 @@ public class Dev {
         this.conteudosConcluidos = conteudosConcluidos;
     }
 
-    public void inscreverBootcamp(Bootcamp bootcamp){
+    public void inscreverBootcamp(Bootcamp bootcamp) {
         this.conteudosInscritos.addAll(bootcamp.getConteudos());
         bootcamp.getDevsIncritos().add(this);
     }
 
-    public void progredir(){
+    public void progredir() {
         Optional<Conteudo> conteudo = this.conteudosInscritos.stream().findFirst();
-        if (conteudo.isPresent()){
+        if (conteudo.isPresent()) {
             this.conteudosConcluidos.add(conteudo.get());
             this.conteudosInscritos.remove(conteudo.get());
         } else {
@@ -69,10 +69,10 @@ public class Dev {
         }
     }
 
-    public double calcularTotalXp(){
-       return this.getConteudosConcluidos()
-               .stream()
-               .mapToDouble(Conteudo::calcularXp)
-               .sum();
+    public double calcularTotalXp() {
+        return this.getConteudosConcluidos()
+                .stream()
+                .mapToDouble(Conteudo::calcularXp)
+                .sum();
     }
 }

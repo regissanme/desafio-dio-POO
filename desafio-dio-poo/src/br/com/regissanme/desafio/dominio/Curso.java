@@ -6,7 +6,7 @@ package br.com.regissanme.desafio.dominio;
  * Data: 03/08/2022
  * Hora: 23:12
  */
-public class Curso extends Conteudo{
+public class Curso extends Conteudo {
 
 
     private int cargaHoraria;
