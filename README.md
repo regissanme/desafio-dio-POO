@@ -4,6 +4,7 @@
 
 
 ⚠️ Não estou disponibilizando o link direto para o desafio, pois o mesmo faz parte da trilha de alguns Bootcamps. Logo, você terá que se matricular no Bootcamp para ter acesso ao curso.⚠️
+[Link para a plataforma da DIO](https://web.dio.me/home)
 
 ------------
 
@@ -21,7 +22,7 @@ Foram apresentados e abordados os seguintes tópicos:
 - Explicação e exemplificação do conceito de Herança em POO;
 - Explicação e exemplificação do conceito de Polimorfismo em POO;
 - Explicação do Domínio da aplicação;
-- Criação das classes, atributos e métos para representação do Domínio da aplicação.
+- Criação das classes, atributos e métodos para representação do Domínio da aplicação.
 
 ### Requisitos mínimos para criação e execução do projeto
 - Java 11 ou versões superiores.
@@ -36,6 +37,7 @@ Foram apresentados e abordados os seguintes tópicos:
 - [Documentação do git](https://git-scm.com/)
 - [Documentação do GitHub](https://docs.github.com/pt)
 - [Atalhos do IntelliJ IDEA](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+- [DIO](https://web.dio.me/home)
 
 
 
