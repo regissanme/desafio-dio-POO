@@ -65,5 +65,6 @@ public class Main {
         System.out.println("Conteudos concluídos dev2: " + dev2.getConteudosConcluidos());
         System.out.println("XP: " + dev2.calcularTotalXp());
 
+
     }
 }
