@@ -1,17 +1,17 @@
-# Desenvolvimento de um sistema de gerenciamento de pessoas em API REST com Spring Boot
+# Abstraindo um Bootcamp usando Orientação à Objetos em Java
 
-## 06/01/2021 - Desafio de Projeto do Bootcamp Cognizant Java Developer
-#teamJavaCog
+## 03/08/2022 - Desafio de Projeto do Bootcamp Cognizant Java Developer
+
 
 ⚠️ Não estou disponibilizando o link direto para o desafio, pois o mesmo faz parte da trilha de alguns Bootcamps. Logo, você terá que se matricular no Bootcamp para ter acesso ao curso.⚠️
 
 ------------
 
 ### Especialista do desafio:
-- **Rodrigo Peleias** - Desenvolvedor de Software Senior
-- [GitHub do Projeto Original](https://github.com/rpeleias-v1/personapi_digital_innovation_one)
+- **Camila Cavalcante** - Tech Teacher - DIO
+- [GitHub do Projeto Original](https://github.com/cami-la)
 
-Desafio: "Desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com Spring Boot."
+Desafio: "Desenvolver um pequeno sistema para abstrair o domínio de um Bootcamp."
 
 ### Visão Geral
 Foram apresentados e abordados os seguintes tópicos:
@@ -21,17 +21,6 @@ Foram apresentados e abordados os seguintes tópicos:
 - Relação de cada uma das operações acima com o padrão arquitetural REST.
 - Desenvolvimento de testes unitários para validação das funcionalidades.
 - Implantação do sistema na nuvem através do Heroku.
-
-### Execução da aplicação
-Para executar a aplicação pelo terminal, na sua máquina local, digite o seguinte comando:  
-
-  <code> mvn spring-boot:run </code>
-
-Após executar o comando acima, basta apenas abrir o seu navegador preferido e acessar a API pelo endereço:  
-
-<code> http://localhost:8080/api/v1/people </code>
-
-
 
 ### Requisitos mínimos para criação e execução do projeto
 - Java 11 ou versões superiores.
